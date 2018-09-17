@@ -1,3 +1,5 @@
+from nltk import sent_tokenize
+import json
 def tokenize(text):
     '''text: list of text documents'''
     tokenized =  sent_tokenize(text)
